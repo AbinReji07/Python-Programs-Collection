@@ -1,0 +1,10 @@
+num=int(input("enter the num:"))
+sum=0
+rev=0
+while(num!=0):
+    n=num%10
+    sum=sum+n
+    rev=rev*10+n
+    num=num//10
+print("sum of digit=",sum)
+print("reverse of number=",rev)
